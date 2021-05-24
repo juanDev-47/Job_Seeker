@@ -10,7 +10,7 @@ function validarBusqueda(e) {
 
     const busqueda = document.querySelector('#busqueda').value;
 
-    if(busqueda.length < 3) { 
+    if(busqueda.length < 1) { 
         mostrarAlerta('Busqueda muy corta, añade mas información');
         return;
     }
