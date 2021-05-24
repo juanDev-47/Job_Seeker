@@ -62,7 +62,7 @@ function mostrarVacantes(vacantes) {
                 <p class="font-bold uppercase">Compañia:  <span class="font-light normal-case">${company} </span></p>
                 <p class="font-bold uppercase">Tipo de Contrato:   <span class="font-light normal-case">${type} </span></p>
                 <p class="font-bold uppercase">Lugar de trabajo:   <span class="font-light normal-case">${location} </span></p>
-                <a class="bg-teal-500 max-w-lg mx-auto mt-3 rounded p-2 block uppercase font-xl font-bold text-white text-center" href="${url}">Ver Vacante</a>
+                <a class="bg-teal-500 max-w-lg mx-auto mt-3 rounded p-2 block uppercase font-xl font-bold text-white text-center" href="${url}" target="_blank">Ver Vacante</a>
             </div>
             `;
 
